@@ -1,87 +1,83 @@
 # End-to-End Data Analytics Portfolio
 End-to-end data analytics portfolio covering ETL pipelines, stakeholder-focused visualisation, and time-series forecasting using Python.
 
-This repository showcases a three-phase, end-to-end data analytics project completed as part of a Level 4 Data Analyst apprenticeship. The portfolio demonstrates the full analytics lifecycle — from raw data preparation and integrity assurance, through exploratory and visual analytics, to time series forecasting and predictive insight.
+This repository demonstrates an end-to-end data analytics project using real organisational data, covering the full lifecycle from raw data preparation to predictive insight. The work reflects applied analytics practice in a business context, with a focus on data quality, stakeholder communication, and decision support.
 
-The work is based on real organisational data and addresses genuine business challenges around engagement tracking, reporting accuracy, and proactive planning. It evidences technical, ethical, and professional competencies aligned to industry and apprenticeship assessment standards.
+The portfolio showcases how structured data engineering, visual analytics, and forecasting can be combined to improve reporting accuracy, operational efficiency, and strategic planning.
 
 ---
 
-## Project Overview
+## Project Summary
 
-The portfolio is structured into three standalone projects, each building on the previous phase:
+The portfolio is organised into three standalone projects, each addressing a distinct stage of the analytics lifecycle:
 
 ### 🔹 Project 1: Data Integrity & ETL  
-**Focus:** Data cleaning, standardisation, anonymisation, and integration  
-- Designed a repeatable ETL pipeline to consolidate fragmented datasets  
-- Addressed duplicated records, inconsistent schemas, and mixed data granularity  
-- Implemented GDPR-compliant anonymisation and validation checks  
-- Produced a single, reliable source of truth for downstream analysis  
+**Business problem:** Fragmented, inconsistent data limited trust in reporting and slowed analysis.  
 
-📂 Folder: `project_1_data_integrity/`  
-📘 Notebook: `01_project1_data_integrity.ipynb`
+**What I delivered:**  
+- Designed a repeatable ETL pipeline to clean, standardise, and integrate multiple datasets  
+- Resolved duplication, inconsistent identifiers, and mixed data granularity  
+- Applied GDPR-compliant anonymisation and validation checks  
+- Created a single, reliable dataset to support reporting and downstream analytics  
 
----
-
-### 🔹 Project 2: Visual Analytics & User Experience  
-**Focus:** Insightful, accessible, stakeholder-ready data visualisation  
-- Transformed cleaned data into clear monthly visual insights  
-- Applied user experience (UX) principles: consistency, accessibility, usability  
-- Built reusable, brand-aligned charts for non-technical stakeholders  
-- Enabled faster interpretation of attendance, demographics, and impact  
-
-📂 Folder: `project_2_visual_analytics/`  
-📘 Notebook: `02_project2_visual_analytics.ipynb`
+📂 `project_1_data_integrity/`
 
 ---
 
-### 🔹 Project 3: Time Series Forecasting & Predictive Analytics  
-**Focus:** Forecasting demand to support proactive planning  
-- Analysed historical monthly sign-up data  
-- Applied time series techniques (decomposition, smoothing, autocorrelation)  
+### 🔹 Project 2: Visual Analytics & Stakeholder Reporting  
+**Business problem:** Insights were difficult to interpret quickly, especially for non-technical stakeholders.  
+
+**What I delivered:**  
+- Built clear, accessible visual analytics to communicate attendance, demographics, and impact  
+- Applied user experience (UX) principles to dashboards and charts  
+- Introduced consistent branding and layout for trust and usability  
+- Reduced manual reporting effort and improved insight adoption  
+
+📂 `project_2_visual_analytics/`
+
+---
+
+### 🔹 Project 3: Forecasting & Predictive Insight  
+**Business problem:** Planning was reactive, with limited visibility of future demand.  
+
+**What I delivered:**  
+- Analysed historical engagement using time series methods  
 - Built and evaluated forecasting models (naïve vs regression using RMSE)  
-- Generated forward-looking insights to inform strategic decision-making  
+- Identified seasonal patterns and long-term trends  
+- Produced forward-looking insights to support proactive planning and resource allocation  
 
-📂 Folder: `project_3_forecasting/`  
-📘 Notebook: `03_project3_time_series_forecasting.ipynb`
-
----
-
-## Key Skills Demonstrated
-
-- Python (Pandas, NumPy, Matplotlib, Seaborn, SciPy)
-- Data cleaning, wrangling, and integration
-- Relational data concepts and joins
-- Descriptive, predictive, and prescriptive analytics
-- Time series analysis and forecasting
-- Data visualisation and storytelling
-- User experience (UX) design for analytics
-- Ethical data use and GDPR compliance
-- Stakeholder-focused communication
+📂 `project_3_forecasting/`
 
 ---
 
-## Data Ethics & Governance
+## Tools & Techniques
 
-All analysis was conducted in line with GDPR and ethical data principles.  
-Personally identifiable information (PII) was anonymised at ingestion, and only non-sensitive, analysis-ready datasets were used within the notebooks. Outputs focus on aggregated insight rather than individual-level identification.
+- **Python:** Pandas, NumPy, Matplotlib, Seaborn, SciPy, Statsmodels  
+- **Analytics:** ETL pipelines, descriptive statistics, time series analysis, forecasting  
+- **Visualisation:** Stakeholder-focused charts, UX-led design  
+- **Data Practices:** GDPR compliance, anonymisation, ethical analysis  
 
 ---
 
-## How to Use This Repository
+## Business Value Demonstrated
 
-Each project notebook is **standalone** and can be run independently:
+- Improved data reliability and trust in reporting  
+- Reduced time spent on manual data reconciliation  
+- Enabled faster, clearer decision-making for non-technical stakeholders  
+- Introduced predictive insight to support proactive planning  
+- Built foundations for scalable, automated reporting and analytics  
 
-1. Start with **Project 1** to understand the data preparation and integrity work.
-2. Move to **Project 2** to explore visual analytics and UX-driven reporting.
-3. Finish with **Project 3** to see forecasting, model evaluation, and predictive insight.
+---
 
-Key visual outputs are saved in each project’s `images/` folder for quick review without running the notebooks.
+## How to Navigate
+
+Each project notebook is fully standalone and can be run independently.  
+Key visual outputs are saved in each project’s `images/` folder for quick review.
 
 ---
 
 ## About This Portfolio
 
-This portfolio reflects real-world analytics practice rather than toy examples.  
-It demonstrates how data analytics can move from operational complexity and fragmentation toward reliable insight, clearer communication, and forward-looking decision support.
+This portfolio reflects real-world analytics work rather than synthetic examples.  
+It demonstrates my approach to solving ambiguous data problems, building reliable analytical workflows, and translating complex analysis into clear, actionable insight.
 

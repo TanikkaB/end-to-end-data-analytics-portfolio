@@ -5,8 +5,6 @@ This repository demonstrates an end-to-end data analytics project using real org
 
 The portfolio showcases how structured data engineering, visual analytics, and forecasting can be combined to improve reporting accuracy, operational efficiency, and strategic planning.
 
-*This portfolio has been adapted for public sharing. Organisation names, platform details, and examples have been generalised to protect confidentiality while preserving analytical methods and outcomes.
-
 ---
 
 ## Project Summary
@@ -83,3 +81,4 @@ Key visual outputs are saved in each project’s `images/` folder for quick revi
 This portfolio reflects real-world analytics work rather than synthetic examples.  
 It demonstrates my approach to solving ambiguous data problems, building reliable analytical workflows, and translating complex analysis into clear, actionable insight.
 
+*This portfolio has been adapted for public sharing. Organisation names, platform details, and examples have been generalised to protect confidentiality while preserving analytical methods and outcomes.

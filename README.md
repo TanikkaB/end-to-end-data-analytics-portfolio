@@ -1,6 +1,8 @@
 # End-to-End Data Analytics Portfolio
 End-to-end data analytics portfolio covering ETL pipelines, stakeholder-focused visualisation, and time-series forecasting using Python.
 
+*This portfolio has been adapted for public sharing. Organisation names, platform details, and examples have been generalised to protect confidentiality while preserving analytical methods and outcomes.
+
 This repository demonstrates an end-to-end data analytics project using real organisational data, covering the full lifecycle from raw data preparation to predictive insight. The work reflects applied analytics practice in a business context, with a focus on data quality, stakeholder communication, and decision support.
 
 The portfolio showcases how structured data engineering, visual analytics, and forecasting can be combined to improve reporting accuracy, operational efficiency, and strategic planning.
